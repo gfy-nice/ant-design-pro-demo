@@ -43,11 +43,33 @@ export default defineConfig({
       ],
     },
     {
-      path: '/welcome',
-      name: 'welcome',
+      path: '/home',
+      name: 'home',
       icon: 'smile',
-      component: './Welcome',
+      component: './home/home',
     },
+    {
+      path: '/bpm',
+      name: 'bpm',
+      icon: 'crown',
+      // access: 'canAdmin',
+      // component: './bpm/sale/sale',
+      routes: [
+        {
+          path: '/bpm/sale',
+          name: 'sale',
+          icon: 'smile',
+          component: './bpm/sale/sale',
+        },
+      ],
+    },
+
+    // {
+    //   path: '/welcome',
+    //   name: 'welcome',
+    //   icon: 'smile',
+    //   component: './Welcome',
+    // },
     {
       path: '/admin',
       name: 'admin',
@@ -63,15 +85,19 @@ export default defineConfig({
         },
       ],
     },
-    {
-      name: 'list.table-list',
-      icon: 'table',
-      path: '/list',
-      component: './ListTableList',
-    },
+    // {
+    //   name: 'list.table-list',
+    //   icon: 'table',
+    //   path: '/list',
+    //   component: './ListTableList',
+    // },
+    // {
+    //   path: '/',
+    //   redirect: '/welcome',
+    // },
     {
       path: '/',
-      redirect: '/welcome',
+      redirect: '/home',
     },
     {
       component: './404',

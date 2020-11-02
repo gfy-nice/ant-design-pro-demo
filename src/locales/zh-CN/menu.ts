@@ -2,6 +2,8 @@ export default {
   'menu.welcome': '欢迎',
   'menu.more-blocks': '更多区块',
   'menu.home': '首页',
+  'menu.bpm': '流程',
+  'menu.bpm.sale': '销售合同',
   'menu.admin': '管理页',
   'menu.admin.sub-page': '二级管理页',
   'menu.login': '登录',
