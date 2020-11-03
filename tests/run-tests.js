@@ -17,7 +17,7 @@ const startServer = spawn(/^win/.test(process.platform) ? 'npm.cmd' : 'npm', ['s
   env,
 });
 
-startServer.stderr.on('data', (data) => {
+startServer.stderr.on('sale.tsx', (data) => {
   // eslint-disable-next-line
   console.log(data.toString());
 });
@@ -27,7 +27,7 @@ startServer.on('exit', () => {
 });
 
 console.log('Starting development server for e2e tests...');
-startServer.stdout.on('data', (data) => {
+startServer.stdout.on('sale.tsx', (data) => {
   console.log(data.toString());
   // hack code , wait umi
   if (

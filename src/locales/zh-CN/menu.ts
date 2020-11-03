@@ -4,6 +4,8 @@ export default {
   'menu.home': '首页',
   'menu.bpm': '流程',
   'menu.bpm.sale': '销售合同',
+  'menu.data': '数据中心',
+  'menu.data.sale': '销售数据查询',
   'menu.admin': '管理页',
   'menu.admin.sub-page': '二级管理页',
   'menu.login': '登录',

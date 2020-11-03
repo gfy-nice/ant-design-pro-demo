@@ -63,7 +63,21 @@ export default defineConfig({
         },
       ],
     },
-
+    {
+      path: '/data',
+      name: 'data',
+      icon: 'crown',
+      // access: 'canAdmin',
+      // component: './bpm/sale/sale',
+      routes: [
+        {
+          path: '/data/sale',
+          name: 'sale',
+          icon: 'smile',
+          component: './data/sale/sale',
+        },
+      ],
+    },
     // {
     //   path: '/welcome',
     //   name: 'welcome',
